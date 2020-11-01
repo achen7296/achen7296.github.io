@@ -106,7 +106,7 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #0C25F6;
+    background-color: #00416a;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -298,15 +298,15 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    border: 3px solid #366994;
+    background-color: #06191d;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
 }
 
 .icon-container i{
-    color: #ffe838;
+    color: #366994;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -412,18 +412,18 @@ li{
 
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
+    box-shadow: 0 0 0 4px #366994;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: #313534;
+    background-color: #eee;
 }
 /*End timeline*/
 
 /*Start contact*/
 .contact{
-    background-color: #221e3f;
+ 
 }
 
 form{
@@ -442,12 +442,12 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #fd57bf;
+    outline-color: #366994;
 }
 
 input[type="submit"]{
     width:initial;
-    background-color: #fd57bf;
+    background-color: #366994;
     color: #eee;
     padding: 1rem 2rem;
     border-radius: .8rem;
@@ -456,8 +456,8 @@ input[type="submit"]{
 }
 
 input[type="submit"]{
-    color: #221e3f:
-    background-color: #ffe838;
+    color: #eee;
+    background-color: #366994;
 }
 /*End Contact*/
 
@@ -465,8 +465,8 @@ input[type="submit"]{
 .copyright{
     width:100%;
     text-align: center;
-    background-color: #16162d;
-    padding: 2rem 0;
+    background-color: #366994;
+    padding: 1rem 0;
     position: relative;
 }
 
@@ -497,7 +497,7 @@ input[type="submit"]{
 /*Start Animation*/
 @keyframes pulse{
     0%{
-        box-shadow: 0 0 0 0 rgba(253,87,191,0.99);
+        box-shadow: 0 0 0 0 rgba(61,117,165,0.99);
     }
     70%{
         box-shadow: 0 0 0 2rem rgba(253,87,191,0);
